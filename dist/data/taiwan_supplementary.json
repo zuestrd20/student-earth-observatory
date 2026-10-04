@@ -1,0 +1,52 @@
+{
+  "iso3": "TWN",
+  "iso2": "TW",
+  "name_zh": "台灣",
+  "name_en": "Taiwan",
+  "year": 2023,
+  "title_zh": "台灣補充資料",
+  "use_in_global_comparison": false,
+  "use_in_global_color_scale": false,
+  "use_in_rankings": false,
+  "notice_zh": "此卡來自台灣官方的獨立資料來源。人口為年底戶籍登記人口，與 WDI 年中居住人口定義不同，不納入全球色階、排名或倍數比較。",
+  "retrieved_at": "2026-10-04",
+  "metrics": {
+    "population": {
+      "label_zh": "2023 年底戶籍登記人口",
+      "value": 23420442,
+      "year": 2023,
+      "reference_date": "2023-12-31",
+      "unit": "people",
+      "unit_zh": "人",
+      "source": "內政部戶政司｜民國112年12月戶口統計資料分析",
+      "source_url": "https://www.ris.gov.tw/info-liferay/app/channel/newsDetail/24010757",
+      "published_at": "2024-01-10",
+      "status": "available",
+      "definition_zh": "年底戶籍登記人口；不是 WDI 年中居住人口。",
+      "verification": "Official HTML downloaded and exact figure/date checked in body."
+    },
+    "population_density": {
+      "value": null,
+      "year": 2023,
+      "unit": "people/km²",
+      "status": "not_verified",
+      "note_zh": "未補入與 WDI 陸地面積定義不同或尚未核實的密度值。"
+    },
+    "gdp": {
+      "value": null,
+      "year": 2023,
+      "unit": "current US$",
+      "status": "not_verified",
+      "note_zh": "本輪未完成官方原表與版本核實，暫不填入。"
+    },
+    "gdp_per_capita": {
+      "value": null,
+      "year": 2023,
+      "unit": "current US$/person",
+      "status": "not_verified",
+      "note_zh": "本輪未完成官方原表與版本核實，暫不填入。"
+    }
+  },
+  "attribution": "資料來源：內政部戶政司，民國112年12月戶口統計資料分析，2024-01-10。此為獨立整理資料；未改變原始數值。",
+  "license_note": "Only the reported population fact is transcribed; no republication of the full article or PDF is needed."
+}

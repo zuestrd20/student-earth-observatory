@@ -1,0 +1,54 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> student_threejs_globe@1.0.0 check
+> npm run build && npm run offline && npm test
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> student_threejs_globe@1.0.0 build
+> vite build --base=./
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 131 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   4.19 kB │ gzip:   2.28 kB
+dist/assets/index-CM1m4K-L.css    7.46 kB │ gzip:   2.42 kB
+dist/assets/index-CfYjUBx0.js    11.68 kB │ gzip:   5.78 kB
+dist/assets/globe-CWY2WR3y.js   524.53 kB │ gzip: 134.97 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 1.24s
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> student_threejs_globe@1.0.0 offline
+> node scripts/offline.mjs
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> student_threejs_globe@1.0.0 test
+> node --test tests/*.test.js
+
+✔ 218 country/territory entries, unique ISO, no aggregates, same-year indicators (1.601258ms)
+✔ coverage and missing-value exclusion (0.407813ms)
+✔ log scale endpoints, equal ratios, and valid extents (2.739361ms)
+✔ Chinese, English and ISO search (1.146596ms)
+✔ spherical forward/inverse coordinates and unit radius (0.255488ms)
+✔ Natural Earth polygon picking: countries, antimeridian and small-island alternative (4.57811ms)
+✔ antimeridian, islands and ocean picking (8.257392ms)
+✔ offline startup/fallback exposes full searchable data without WebGL (415.644997ms)
+✔ search, select Taiwan missing data, repeated add/remove/clear and metric controls (352.486236ms)
+✔ Back restores metric, selected country and compare board (225.217242ms)
+✔ Taiwan independent official supplement is separated from global values (258.404961ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1629.596901
