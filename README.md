@@ -40,6 +40,9 @@ Node.js 22.12+（本次24.19.0）。版本固定於package.json及package-lock.j
 
 已通過資料、球面坐標正反轉、已知國家polygon picking及離線DOM互動測試；npm正式build成功，依賴audit為0項已知漏洞。測試詳見 `VALIDATION.md`。
 
-**尚未完成真正GPU／WebGL 2裝置的畫面與拖曳驗收。** 本次雲端原生Chromium的CUA輸入因AT-SPI provider unavailable失敗；未繞過安全設定，也未使用軟體模擬畫面冒充3D驗證。無WebGL分支與搜尋／比較流程已在DOM環境測試，不等於真實瀏覽器視覺驗收。請在正常支援WebGL 2的裝置開啟離線版後，依VALIDATION中的清單確認。
+**尚未完成真正GPU／WebGL 2裝置的畫面與拖曳驗收。** 2026-10-04公開後，雲端瀏覽器與正常啟動的原生Chromium均回報WebGL 2不可用，實際顯示資料探索模式。未修改GPU或安全設定，也未使用假3D画面冒充驗證。無WebGL分支已通過兩個瀏覽器畫面檢查，搜尋／四國比較／切換／Back／移除與清空已通過公開頁真實操作；這不等於3D渲染驗收。請在正常支援WebGL 2的裝置開啟離線版後，依VALIDATION中的清單確認。
 
-本檔案包不表示已公開發布。來源、授權與資料快照校驗見 `SOURCES.md` 及 `public/licenses/`。
+公開網站：https://zuestrd20.github.io/student-earth-observatory/
+原始碼：https://github.com/zuestrd20/student-earth-observatory
+
+來源、授權與資料快照校驗見 `SOURCES.md` 及 `public/licenses/`。

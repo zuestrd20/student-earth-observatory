@@ -18,7 +18,7 @@
 - 真實WebGL2 GPU畫面（球面、紋理對位、大氣shader、星空）未實機驗收。
 - 真實瀏覽器拖曳／觸控／縮放／raycast點擊、重設多次、context lost實際事件、手機斷點與放大排版尚未實機驗收。
 - 原生Chromium CUA的輸入回報：AT-SPI provider with process ID 604 is unavailable for X11 window 29360131。完整桌面API與重新初始化仍相同；因此未取得本作品實機畫面。
-- 沒有以瀏覽器flags關閉安全功能、沒有假稱渲染已通過、沒有公開上線。
+- 沒有以瀏覽器flags關閉安全功能，沒有假稱3D渲染已通過。
 
 ## 支援裝置上的人工驗收清單
 
@@ -30,3 +30,13 @@
 6. 自轉→暫停→縮放→重設，重複3次；鏡頭回亞洲，自轉按鈕狀態正確。
 7. 加滿4國、移除、換GDP／人均GDP、清空3次；Back/Forward重現狀態。
 8. 375px窄螢幕及200%放大，所有控制可用、文字無截斷、鍵盤焦點可見。
+
+## 公開頁面實機QA（2026-10-04 23:02 UTC）
+
+- 公開網址：https://zuestrd20.github.io/student-earth-observatory/ 。Pages commit `20ab5c45d38d7b67e65d74ea909c8625683e1074`。
+- 雲端browser真實頁面出現資料探索模式；console明確 `3D unavailable; data interface remains active. WebGL 2 unavailable`。
+- 透過桌面Terminal正常啟動原生Chromium並載入同一公開HTTPS頁面，亦實際顯示相同WebGL2不可用的資料探索模式。沒有使用額外GPU、安全或軟體渲染flags。
+- 公開頁已實際操作通過：臺灣搜尋、台灣補充23,420,442与WDI無資料分離、JPN/USA/SGP搜尋與4國加入、四項指標與圖例同步、Back還原前一指標、移除台灣、連續清空3次、Japan英文搜尋。
+- 正常1188px原生桌面／雲端頁面排版可讀；手機與200%放大未實機測。
+- 原生本機file頁曾顯示組織政策blocked；停止該路徑，後續僅驗已授權公開HTTPS頁。
+- 3D球體、紋理、shader、星空、拖曳／縮放／觸控、GPU picking及context loss仍未實機驗收。若使用者裝置支援WebGL2，請依上方清單驗收。
