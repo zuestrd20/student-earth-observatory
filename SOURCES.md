@@ -35,3 +35,6 @@ Three.js 0.180.0 MIT。d3-geo 3.1.1、d3-array、internmap為ISC。完整license
 - countries.geojson: 6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f
 - country_indicators.json: 0e4e195e4ea77448393c1684b1327a533e2e870eecd7161ebf137f3ba8a7297e
 - taiwan_supplementary.json: ec3019b8503b24f7acca0fac7fdb749d6f7293e18ee9e7fa9a6eca1323fd5e0e
+
+## Wikipedia補值（2026-10-05）
+原WDI 2023快照所有有效值保持不變。原32個缺欄中27項補入可追溯資料，另外5項主值仍缺；科索沃2024總面積人口密度146僅附註，不混入陸地密度。每筆實際年份、來源及限制見 `public/data/wikipedia_supplementary.json` 與 `WIKIPEDIA_SOURCES.md`。Wikipedia文字內容採CC BY-SA 4.0；原始來源連結逐筆保留。
