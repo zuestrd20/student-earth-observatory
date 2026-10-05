@@ -669,16 +669,27 @@
           "source": "Wikipedia supplementary",
           "source_name": "Wikipedia 補充",
           "source_url": "https://en.wikipedia.org/wiki/Taiwan",
-          "status": "unresolved",
-          "note_zh": "Wikipedia資訊框644人/平方公里未單獨標明年份及直接引用，總面積口徑也不同於WDI陸地密度。保留缺值，既有台灣戶籍補充卡照舊。",
+          "status": "reference_only",
+          "note_zh": "Wikipedia資訊框列644人／平方公里；相鄰2025年12月人口23,299,132除以總面積36,197平方公里約643.68，與644吻合。密度欄未獨立標明年份及引用，因此2025是依相鄰人口推定；總面積口徑不同於WDI陸地面積。僅供參考，不納入統一色階或長條比例。",
           "definition_zh": "",
           "wiki_citation": null,
           "checked_at": "2026-10-05",
-          "comparability": "unverified",
+          "comparability": "reference_only_total_area_year_inferred",
           "unresolved_reason": "Wikipedia資訊框644人/平方公里未單獨標明年份及直接引用，總面積口徑也不同於WDI陸地密度。保留缺值，既有台灣戶籍補充卡照舊。",
           "rejected_candidate": {
             "value": 644,
             "year": null
+          },
+          "alternative_value": 644,
+          "alternative_unit_zh": "人／平方公里總面積",
+          "alternative_year_label": "2025人口對應（密度欄未另標年）",
+          "evidence": {
+            "density_displayed": 644,
+            "adjacent_population": 23299132,
+            "adjacent_population_period": "December 2025",
+            "total_area_km2": 36197,
+            "year_status": "inferred_from_adjacent_population_not_explicit_density_year",
+            "population_citation": "https://eng.stat.gov.tw/Point.aspx?n=4208&sid=t.9&sms=11713"
           }
         }
       }
