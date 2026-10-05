@@ -15,14 +15,14 @@ rendering chunks...
 computing gzip size...
 dist/index.html                   4.49 kB │ gzip:   2.43 kB
 dist/assets/index-B-Tw5aUt.css   10.62 kB │ gzip:   3.13 kB
-dist/assets/index-DOQy8-9D.js   462.80 kB │ gzip:  28.07 kB
-dist/assets/globe-D69hxMcs.js   520.22 kB │ gzip: 134.28 kB
+dist/assets/index-CGF3EiAR.js   462.91 kB │ gzip:  28.12 kB
+dist/assets/globe-DtlEBeVJ.js   520.22 kB │ gzip: 134.28 kB
 
 (!) Some chunks are larger than 500 kB after minification. Consider:
 - Using dynamic import() to code-split the application
 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
-✓ built in 1.53s
+✓ built in 1.30s
 npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
 
 > student_threejs_globe@1.0.0 offline
@@ -33,38 +33,39 @@ npm warn Unknown env config "http-proxy". This will stop working in the next maj
 > student_threejs_globe@1.0.0 test
 > node --test tests/*.test.js
 
-✔ eight metrics preserve all original values and add only learning fields (284.283387ms)
-✔ true UNESCO completion series is modelled percentage, not WDI gross intake (0.271763ms)
-✔ new scales handle zeros and null separately and use a non-red neutral palette (0.308518ms)
-✔ Taiwan official life expectancy is sourced; registration age share remains reference-only (0.171214ms)
-✔ all eight teaching questions have same-year comparable nonmissing inputs and exact answers (3.623906ms)
-✔ quiz transitions refuse early reveal/next, reject unknown answers, reset and wrap safely (0.372343ms)
-✔ quiz DOM hides numbers first, reveals sources, and survives repeated next/reset (142.800431ms)
-✔ offline eight-indicator switching, Taiwan references and quiz run without network/WebGL (642.786151ms)
-✔ 218 country/territory entries, unique ISO, no aggregates, same-year indicators (2.267394ms)
-✔ coverage and missing-value exclusion (2.489814ms)
-✔ fixed ranges include their lower boundary and do not depend on global maximum (0.354136ms)
-✔ Chinese, English and ISO search (1.807822ms)
-✔ spherical forward/inverse coordinates and unit radius (0.455926ms)
-✔ Natural Earth polygon picking: countries, antimeridian and small-island alternative (5.082179ms)
-✔ antimeridian, islands and ocean picking (10.38103ms)
-✔ legend shares six discrete stops and missing values are separate (0.359173ms)
-✔ supplements cannot overwrite valid original WDI values or mutate source (0.529646ms)
-✔ Wikipedia additions have traceable years and preserve WDI snapshot (7.854823ms)
-✔ offline startup/fallback exposes full searchable data without WebGL (556.108313ms)
-✔ search, select Taiwan missing data, repeated add/remove/clear and metric controls (463.787304ms)
-✔ Back restores metric, selected country and compare board (315.480857ms)
-✔ Taiwan original official supplement retains a separate provenance panel (304.095179ms)
-✔ Russia shows the explicit hundred-million population band (328.888334ms)
-✔ all metric tabs render the shared red-ended legend (360.795414ms)
-✔ Wikipedia values show actual year/source and incompatible density stays missing (338.834407ms)
-✔ Taiwan density reference is visible and excluded from chart scale (353.383573ms)
-✔ actual SphereGeometry raycast agrees with painted map and country picking (49.131736ms)
-ℹ tests 27
+✔ eight metrics preserve all original values and add only learning fields (267.184789ms)
+✔ true UNESCO completion series is modelled percentage, not WDI gross intake (0.349788ms)
+✔ new scales handle zeros and null separately and use a non-red neutral palette (0.393752ms)
+✔ Taiwan official life expectancy is sourced; registration age share remains reference-only (0.14879ms)
+✔ all eight teaching questions have same-year comparable nonmissing inputs and exact answers (3.67937ms)
+✔ quiz transitions refuse early reveal/next, reject unknown answers, reset and wrap safely (0.319582ms)
+✔ quiz DOM hides numbers first, reveals sources, and survives repeated next/reset (156.683107ms)
+✔ offline eight-indicator switching, Taiwan references and quiz run without network/WebGL (655.129659ms)
+✔ 218 country/territory entries, unique ISO, no aggregates, same-year indicators (2.415432ms)
+✔ coverage and missing-value exclusion (0.672504ms)
+✔ fixed ranges include their lower boundary and do not depend on global maximum (0.31793ms)
+✔ Chinese, English and ISO search (3.991752ms)
+✔ spherical forward/inverse coordinates and unit radius (0.438719ms)
+✔ Natural Earth polygon picking: countries, antimeridian and small-island alternative (5.623545ms)
+✔ antimeridian, islands and ocean picking (12.50487ms)
+✔ legend shares six discrete stops and missing values are separate (0.342477ms)
+✔ supplements cannot overwrite valid original WDI values or mutate source (0.50018ms)
+✔ Wikipedia additions have traceable years and preserve WDI snapshot (7.440512ms)
+✔ offline startup/fallback exposes full searchable data without WebGL (571.193314ms)
+✔ search, select Taiwan missing data, repeated add/remove/clear and metric controls (487.199306ms)
+✔ Back restores metric, selected country and compare board (305.694965ms)
+✔ Taiwan original official supplement retains a separate provenance panel (267.2048ms)
+✔ Russia shows the explicit hundred-million population band (311.120852ms)
+✔ all metric tabs render the shared red-ended legend (329.467812ms)
+✔ Wikipedia values show actual year/source and incompatible density stays missing (369.394869ms)
+✔ Taiwan density reference is visible and excluded from chart scale (319.676929ms)
+✔ section links preserve current country metric and comparison state (426.920365ms)
+✔ actual SphereGeometry raycast agrees with painted map and country picking (42.334683ms)
+ℹ tests 28
 ℹ suites 0
-ℹ pass 27
+ℹ pass 28
 ℹ fail 0
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 3677.410561
+ℹ duration_ms 3954.001137
