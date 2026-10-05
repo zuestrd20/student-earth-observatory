@@ -21,3 +21,8 @@ export function searchCountries(cs,q){const s=q.trim().toLocaleLowerCase().repla
 export function toVector(lon,lat,r=1){const a=lon*Math.PI/180,b=lat*Math.PI/180;return [r*Math.cos(b)*Math.cos(a),r*Math.sin(b),-r*Math.cos(b)*Math.sin(a)];}
 export function fromVector({x,y,z}){const r=Math.hypot(x,y,z);return [Math.atan2(-z,x)*180/Math.PI,Math.asin(y/r)*180/Math.PI];}
 export function featureCode(f){const p=f.properties;return ({KOS:'XKX',SAH:'ESH',SDS:'SSD'}[p.ADM0_A3]??(p.ISO_A3&&p.ISO_A3!=='-99'?p.ISO_A3:p.ADM0_A3));}
+
+export function referenceOnly(m){return !valid(m?.value)&&valid(m?.alternative_value);}
+export function displayValue(m){return referenceOnly(m)?m.alternative_value:m?.value;}
+export function displayUnit(m,k){return referenceOnly(m)?(m.alternative_unit_zh||'人／平方公里總面積'):METRICS[k].unit;}
+export function displayYear(m){return referenceOnly(m)?(m.alternative_year_label||m.year||'年份未定'):(m?.year??'年份未定');}

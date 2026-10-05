@@ -15,14 +15,14 @@ rendering chunks...
 computing gzip size...
 dist/index.html                   4.32 kB │ gzip:   2.37 kB
 dist/assets/index-CECToGB9.css    8.68 kB │ gzip:   2.70 kB
-dist/assets/index-BBu3y6hJ.js    42.46 kB │ gzip:  10.63 kB
-dist/assets/globe-Big4XDFX.js   520.10 kB │ gzip: 134.16 kB
+dist/assets/index-CXw6SCq7.js    43.73 kB │ gzip:  11.12 kB
+dist/assets/globe-ChLW1vpU.js   520.22 kB │ gzip: 134.29 kB
 
 (!) Some chunks are larger than 500 kB after minification. Consider:
 - Using dynamic import() to code-split the application
 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
-✓ built in 1.18s
+✓ built in 1.41s
 npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
 
 > student_threejs_globe@1.0.0 offline
@@ -33,29 +33,30 @@ npm warn Unknown env config "http-proxy". This will stop working in the next maj
 > student_threejs_globe@1.0.0 test
 > node --test tests/*.test.js
 
-✔ 218 country/territory entries, unique ISO, no aggregates, same-year indicators (1.644131ms)
-✔ coverage and missing-value exclusion (1.735457ms)
-✔ fixed ranges include their lower boundary and do not depend on global maximum (0.246735ms)
-✔ Chinese, English and ISO search (1.134478ms)
-✔ spherical forward/inverse coordinates and unit radius (0.275878ms)
-✔ Natural Earth polygon picking: countries, antimeridian and small-island alternative (3.97613ms)
-✔ antimeridian, islands and ocean picking (7.892661ms)
-✔ legend shares six discrete stops and missing values are separate (0.255808ms)
-✔ supplements cannot overwrite valid original WDI values or mutate source (0.492258ms)
-✔ Wikipedia additions have traceable years and preserve WDI snapshot (4.663456ms)
-✔ offline startup/fallback exposes full searchable data without WebGL (469.588696ms)
-✔ search, select Taiwan missing data, repeated add/remove/clear and metric controls (354.974874ms)
-✔ Back restores metric, selected country and compare board (313.142434ms)
-✔ Taiwan original official supplement retains a separate provenance panel (279.65233ms)
-✔ Russia shows the explicit hundred-million population band (200.771439ms)
-✔ all metric tabs render the shared red-ended legend (182.961868ms)
-✔ Wikipedia values show actual year/source and incompatible density stays missing (208.77501ms)
-✔ actual SphereGeometry raycast agrees with painted map and country picking (29.26771ms)
-ℹ tests 18
+✔ 218 country/territory entries, unique ISO, no aggregates, same-year indicators (3.137751ms)
+✔ coverage and missing-value exclusion (0.442454ms)
+✔ fixed ranges include their lower boundary and do not depend on global maximum (0.271752ms)
+✔ Chinese, English and ISO search (1.104293ms)
+✔ spherical forward/inverse coordinates and unit radius (0.281777ms)
+✔ Natural Earth polygon picking: countries, antimeridian and small-island alternative (4.159553ms)
+✔ antimeridian, islands and ocean picking (8.497969ms)
+✔ legend shares six discrete stops and missing values are separate (0.251271ms)
+✔ supplements cannot overwrite valid original WDI values or mutate source (0.957276ms)
+✔ Wikipedia additions have traceable years and preserve WDI snapshot (4.481008ms)
+✔ offline startup/fallback exposes full searchable data without WebGL (513.452214ms)
+✔ search, select Taiwan missing data, repeated add/remove/clear and metric controls (412.623296ms)
+✔ Back restores metric, selected country and compare board (326.183582ms)
+✔ Taiwan original official supplement retains a separate provenance panel (301.060703ms)
+✔ Russia shows the explicit hundred-million population band (204.025948ms)
+✔ all metric tabs render the shared red-ended legend (205.544328ms)
+✔ Wikipedia values show actual year/source and incompatible density stays missing (213.058758ms)
+✔ Taiwan density reference is visible and excluded from chart scale (287.867674ms)
+✔ actual SphereGeometry raycast agrees with painted map and country picking (39.408034ms)
+ℹ tests 19
 ℹ suites 0
-ℹ pass 18
+ℹ pass 19
 ℹ fail 0
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 2418.324851
+ℹ duration_ms 2927.462253

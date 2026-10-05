@@ -156,3 +156,9 @@
   - Wikipedia: https://en.wikipedia.org/wiki/List_of_countries_by_past_and_projected_GDP_(nominal)_per_capita
   - 引用來源：IMF World Economic Outlook, April 2026 edition, as cited in Wikipedia https://data.imf.org/en/Data-Explorer?datasetUrn=IMF.RES:WEO(9.0.0)
 
+
+## 台灣人口密度參考值補充（2026-10-05）
+
+Wikipedia Taiwan資訊框列644人/km²，另列2025年12月人口23,299,132、總面積36,197km²，相除約643.68。密度列未獨立列年份或引用，故標示2025人口對應但年分屬推定，不能稱為明確2025官方密度。以總面積參考值展示在卡片、hover與比較板，不納入WDI陸地密度色階／比例。
+
+來源：https://en.wikipedia.org/wiki/Taiwan 。已打開相鄰人口引用 https://eng.stat.gov.tw/Point.aspx?n=4208&sid=t.9&sms=11713 ，該動態頁未直接回傳歷史數值，未宣稱獨立核實2025人口。
